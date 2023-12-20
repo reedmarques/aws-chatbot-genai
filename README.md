@@ -2,12 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-# Credentials
+### Credentials
 
 NOTE: HARD CODING CREDENTIALS SHOULD NOT BE DONE IN PRODUCTION
 Update lib/config.ts with your AWS user credentials.
 
-# Run the application
+### Run the application
 
 First, run the development server:
 
@@ -25,7 +25,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-# To add a custom model:
+### To add a custom model:
 
 - Edit components/ModelConfig.tsx line 24 add param objects specific to your model
 - Edit components/ModelConfig.tsx line 72 add model dropdown value
