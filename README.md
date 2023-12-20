@@ -32,11 +32,3 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 - Edit components/ModelConfig.tsx line 48 function updateModelParameters and add a conditional that sets the respective params for your model to the modelParams object.
 
 page.tsx line 56 add new ChatComponent logic for new model with respective params for your model
-
-# Screenshots
-
-Example of using Bedrock's Llama2 13B model.
-![Alt text](<Screenshot 2023-12-15 at 8.18.24 AM.png>)
-
-Example of using Sagemaker's Llama2 13B model with memory storage.
-![Alt text](<Screenshot 2023-12-19 at 3.28.11 PM.png>)
