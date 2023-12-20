@@ -1,0 +1,111 @@
+/* color scheme */
+:root {
+  --tooltip-margin: 15px;
+
+  --gray0: #fff;
+  --gray1: #f6f6f6;
+  --gray2: #f1f1f1;
+  --gray3: #dfdfe0;
+  --gray4: #adb5bd;
+  --gray5: #6c757d;
+  --gray6: #36393f;
+  --gray7: #2f3136;
+  --gray8: #212225;
+  --primary: #4844fb;
+  --secondary: #f0efff;
+  --success: #38b000;
+  --warning: #fee440;
+  --error: #c1121f;
+
+  /* setting defaults */
+  --bg0: var(--gray0);
+  --bg1: var(--gray1);
+  --bg2: var(--gray2);
+  --shadow: var(--gray3);
+  --border-color: var(--gray4);
+  --text0: var(--gray7);
+  --text1: var(--gray5);
+  --text2: var(--gray3);
+}
+
+/* override defaults for dark theme */
+.dark {
+  --bg0: var(--gray8);
+  --bg1: var(--gray7);
+  --bg2: var(--gray6);
+  --shadow: var(--gray5);
+  --border-color: var(--gray5);
+  --text0: var(--gray1);
+  --text1: var(--gray3);
+  --text2: var(--gray5);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Roboto, Open-sans, Helvetica, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, sans-serif;
+}
+
+h1 {
+  color: var(--text0);
+}
+
+h2 {
+  color: var(--text0);
+}
+
+.pressable {
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  color: var(--text0);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--shadow);
+}
+
+/* Label css */
+label {
+  color: var(--text0);
+  /* color: red; */
+}
+
+label.small {
+  font-size: small;
+}
+
+label.large {
+  font-size: large;
+}
+
+label.light {
+  font-weight: lighter;
+}
+
+label.bold {
+  font-weight: bold;
+}
+
+label.secondary {
+  color: var(--text1);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
